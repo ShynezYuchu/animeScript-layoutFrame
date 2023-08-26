@@ -574,8 +574,6 @@ rollout SHYNEZ_TR_LoFrame "3D Layout 2.3.0" (
     )
     
     on SHYNEZ_TR_LoFrame close do (
-        -- !!! release bitmap memory
-
         Util_DeleteScriptUIOpenState "SHYNEZ_TR_LoFrame"
     )
 )
